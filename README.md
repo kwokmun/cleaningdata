@@ -30,4 +30,4 @@ Please perform each of them in the order that is detailed below:
 7. Download the dplyr package using the "install.packages("dplyr")" command.
 8. Run the "source("run_analysis.R")" command.
 9. Run the script with the "clean()" command.
-10. Once complete, the tidy dataset should now be in your working directory. It's called ...
+10. Once complete, the tidy dataset should now be in your working directory. It's called "human_activity_recognition_summary.txt".
