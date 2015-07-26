@@ -20,13 +20,13 @@ Here's the general approach to creating our tidy dataset:
 
 1. Read the text files into R.
 2. Assign appropriate field names to all the loaded data except for X_test and X_train.
-Convert activity labels to lowercase for consistency.
-Combine training related datasets into one data frame. Repeat for test related datasets.
-Combine training and test datasets together.
-Ensure that field names for the remaining features are assigned.
-Create a subset of the combined dataset with subject id, activity label and features with mean and standard deviation values.
-Rename columns for the subset data for consistency.
-Summarise the subset data by averaging the features, grouped by subject id and activity labels, and rename columns.
+3. Convert activity labels to lowercase for consistency.
+4. Combine training related datasets into one data frame. Repeat for test related datasets.
+5. Combine training and test datasets together.
+6. Ensure that field names for the remaining features are assigned.
+7. Create a subset of the combined dataset with subject id, activity label and features with mean and standard deviation values.
+8. Rename columns for the subset data for consistency.
+9. Summarise the subset data by averaging the features, grouped by subject id and activity labels, and rename columns.
 
 Explanation of feature names
 ----------------------------
